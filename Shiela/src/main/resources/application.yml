@@ -1,0 +1,13 @@
+server:
+  port: 8084
+  # ssl:                                              -- Required for SSL and HTTPS
+  #  key-store: classpath:keystore.jks                -- Makes use of the keystore.jks configured and set up
+  #  key-store-password: roelfrancis100               -- Credentials used for the key
+  #  key-store-type: JKS                              --
+  #  key-alias: yeems214                              --
+  #  key-password: roelfrancis100                     --
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
